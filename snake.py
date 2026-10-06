@@ -47,7 +47,7 @@ class State(Enum):
 
 def random_food_position(snake):
     while True:
-        pos = (random.randrange(GRID_WIDTH), random.randrange(GRID_HEIGHT))
+        pos = (random.randrange(GRID_WIDTH - 1), random.randrange(GRID_HEIGHT - 1))
         if pos not in snake:
             return pos
 
