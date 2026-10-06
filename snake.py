@@ -119,7 +119,8 @@ def draw_center_text(screen, font, text, color=WHITE):
 
 def main():
     pygame.init()
-    screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+    screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT), pygame.RESIZABLE | pygame.SCALED)
+    pygame.init()
     pygame.display.set_caption("Snake")
     clock = pygame.time.Clock()
     font = pygame.font.SysFont(None, 24)
