@@ -3,7 +3,7 @@ import os
 import random
 from enum import Enum, auto
 
-import pygame-ce
+import pygame
 
 CELL_SIZE = 10
 GRID_WIDTH = 60
