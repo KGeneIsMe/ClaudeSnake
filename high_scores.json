@@ -1,6 +1,10 @@
 [
   {
     "initials": "KEM",
+    "score": 62
+  },
+  {
+    "initials": "KEM",
     "score": 47
   },
   {
@@ -10,6 +14,14 @@
   {
     "initials": "DGF",
     "score": 25
+  },
+  {
+    "initials": "TTT",
+    "score": 18
+  },
+  {
+    "initials": "ZZZ",
+    "score": 14
   },
   {
     "initials": "KEV",
@@ -26,13 +38,5 @@
   {
     "initials": "KEM",
     "score": 6
-  },
-  {
-    "initials": "KEM",
-    "score": 5
-  },
-  {
-    "initials": "JJJ",
-    "score": 1
   }
 ]
